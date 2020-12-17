@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F4F4F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:layout_margin="50px">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elige tu personaje"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="15dp"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                android:rowCount="4">
+
+                <ImageButton
+                    android:id="@+id/ironman"
+                    android:layout_height="120dp"
+                    android:layout_width="167dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ironman"
+                    android:scaleType="centerInside"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/batman"
+                    android:layout_height="120dp"
+                    android:layout_width="167dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/batman"
+                    android:scaleType="centerInside"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/superman"
+                    android:layout_height="120dp"
+                    android:layout_width="167dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/superman"
+                    android:scaleType="centerInside"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/deku"
+                    android:layout_height="120dp"
+                    android:layout_width="167dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/deku"
+                    android:scaleType="centerInside"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/spiderman"
+                    android:layout_height="120dp"
+                    android:layout_width="167dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/spiderman"
+                    android:scaleType="centerInside"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/goku"
+                    android:layout_height="120dp"
+                    android:layout_width="167dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/goku"
+                    android:scaleType="centerInside"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/flash"
+                    android:layout_height="120dp"
+                    android:layout_width="167dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/flash"
+                    android:scaleType="centerInside"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/naruto"
+                    android:layout_height="120dp"
+                    android:layout_width="167dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/naruto"
+                    android:scaleType="centerInside"
+                    android:background="@null"/>
+
+            </GridLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

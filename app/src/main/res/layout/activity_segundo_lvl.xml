@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F4F4F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="50px"
+        android:layout_marginEnd="50px"
+        android:layout_marginBottom="19dp"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_personaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Personaje"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Puntaje"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/puntaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="0"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Vidas"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/vida1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_favorite_24" />
+
+            <ImageView
+                android:id="@+id/vida2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_favorite_24" />
+
+            <ImageView
+                android:id="@+id/vida3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_favorite_24" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerInside" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="3"
+                android:columnOrderPreserved="false"
+                android:rowCount="3">
+
+                <ImageButton
+                    android:id="@+id/button1"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/uno" />
+
+                <ImageButton
+                    android:id="@+id/button2"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/dos" />
+
+                <ImageButton
+                    android:id="@+id/button3"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/tres" />
+
+                <ImageButton
+                    android:id="@+id/button4"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/cuatro" />
+
+                <ImageButton
+                    android:id="@+id/button5"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/cinco" />
+
+                <ImageButton
+                    android:id="@+id/button6"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/seis" />
+
+                <ImageButton
+                    android:id="@+id/button7"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/siete" />
+
+                <ImageButton
+                    android:id="@+id/button8"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ocho" />
+
+                <ImageButton
+                    android:id="@+id/button9"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/nueve" />
+
+            </GridLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
